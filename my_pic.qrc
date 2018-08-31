@@ -1,0 +1,24 @@
+<RCC>
+  <qresource prefix="my_pic">
+    <file>pic/aboutme.png</file>
+    <file>pic/aboutqt.png</file>
+    <file>pic/close.png</file>
+    <file>pic/connect.png</file>
+    <file>pic/datadb.png</file>
+    <file>pic/face.png</file>
+    <file>pic/fwgh.png</file>
+    <file>pic/gh.png</file>
+    <file>pic/haha.png</file>
+    <file>pic/jdsj.png</file>
+    <file>pic/kh.png</file>
+    <file>pic/lajiao.png</file>
+    <file>pic/logo.png</file>
+    <file>pic/me1.png</file>
+    <file>pic/note.png</file>
+    <file>pic/open.png</file>
+    <file>pic/sc.png</file>
+    <file>pic/table.png</file>
+    <file>pic/xiaoche.png</file>
+    <file>pic/xj.png</file>
+  </qresource>
+</RCC>

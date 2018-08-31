@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>930</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>波士顿房价预测系统 v1.0</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="my_pic.qrc">
+    <normaloff>:/my_pic/pic/kh.png</normaloff>:/my_pic/pic/kh.png</iconset>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QGroupBox" name="groupBox">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>20</y>
+      <width>191</width>
+      <height>161</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>房价预测操作</string>
+    </property>
+    <widget class="QPushButton" name="pushButton">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>30</y>
+       <width>151</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>加载数据源</string>
+     </property>
+     <property name="icon">
+      <iconset resource="my_pic.qrc">
+       <normaloff>:/my_pic/pic/lajiao.png</normaloff>:/my_pic/pic/lajiao.png</iconset>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_2">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>90</y>
+       <width>151</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>模型预测房价</string>
+     </property>
+     <property name="icon">
+      <iconset resource="my_pic.qrc">
+       <normaloff>:/my_pic/pic/xiaoche.png</normaloff>:/my_pic/pic/xiaoche.png</iconset>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_2">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>20</y>
+      <width>671</width>
+      <height>521</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>模型预测结果</string>
+    </property>
+    <widget class="QGraphicsView" name="graphicsView">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>20</y>
+       <width>651</width>
+       <height>491</height>
+      </rect>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-image: url(:/my_pic/pic/face.png);</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="Line" name="line">
+    <property name="geometry">
+     <rect>
+      <x>213</x>
+      <y>20</y>
+      <width>20</width>
+      <height>521</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="QCalendarWidget" name="calendarWidget">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>260</y>
+      <width>201</width>
+      <height>271</height>
+     </rect>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>930</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu">
+    <property name="title">
+     <string>文件</string>
+    </property>
+    <addaction name="action"/>
+    <addaction name="action_2"/>
+   </widget>
+   <widget class="QMenu" name="menu_2">
+    <property name="title">
+     <string>帮助</string>
+    </property>
+    <addaction name="action_3"/>
+   </widget>
+   <widget class="QMenu" name="menu_3">
+    <property name="title">
+     <string>关于</string>
+    </property>
+    <addaction name="action_4"/>
+    <addaction name="action_QT"/>
+   </widget>
+   <addaction name="menu"/>
+   <addaction name="menu_2"/>
+   <addaction name="menu_3"/>
+  </widget>
+  <action name="action">
+   <property name="icon">
+    <iconset resource="my_pic.qrc">
+     <normaloff>:/my_pic/pic/open.png</normaloff>:/my_pic/pic/open.png</iconset>
+   </property>
+   <property name="text">
+    <string>打开</string>
+   </property>
+  </action>
+  <action name="action_2">
+   <property name="icon">
+    <iconset resource="my_pic.qrc">
+     <normaloff>:/my_pic/pic/close.png</normaloff>:/my_pic/pic/close.png</iconset>
+   </property>
+   <property name="text">
+    <string>关闭</string>
+   </property>
+  </action>
+  <action name="action_3">
+   <property name="icon">
+    <iconset resource="my_pic.qrc">
+     <normaloff>:/my_pic/pic/connect.png</normaloff>:/my_pic/pic/connect.png</iconset>
+   </property>
+   <property name="text">
+    <string>联系我们</string>
+   </property>
+  </action>
+  <action name="action_4">
+   <property name="icon">
+    <iconset resource="my_pic.qrc">
+     <normaloff>:/my_pic/pic/aboutme.png</normaloff>:/my_pic/pic/aboutme.png</iconset>
+   </property>
+   <property name="text">
+    <string>关于我们</string>
+   </property>
+  </action>
+  <action name="action_QT">
+   <property name="icon">
+    <iconset resource="my_pic.qrc">
+     <normaloff>:/my_pic/pic/aboutqt.png</normaloff>:/my_pic/pic/aboutqt.png</iconset>
+   </property>
+   <property name="text">
+    <string>关于QT</string>
+   </property>
+  </action>
+ </widget>
+ <resources>
+  <include location="my_pic.qrc"/>
+ </resources>
+ <connections/>
+</ui>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Project SYSTEM "Project-6.0.dtd">
+<!-- eric project file for project my_boston -->
+<!-- Saved: 2018-08-31, 15:38:50 -->
+<!-- Copyright (C) 2018 XuJing, 274762204@qq.com -->
+<Project version="6.0">
+  <Language>en_US</Language>
+  <Hash>b23f0bf0c5fcdd8c0c692cad3994734a773d24ec</Hash>
+  <ProgLanguage mixed="0">Python3</ProgLanguage>
+  <ProjectType>PyQt5</ProjectType>
+  <Description>An app predict the price of Boston house.</Description>
+  <Version>0.1</Version>
+  <Author>XuJing</Author>
+  <Email>274762204@qq.com</Email>
+  <Eol index="0"/>
+  <Sources>
+    <Source>Ui_my_main_ui.py</Source>
+    <Source>__init__.py</Source>
+    <Source>my_main_ui.py</Source>
+    <Source>my_pic_rc.py</Source>
+  </Sources>
+  <Forms>
+    <Form>my_main_ui.ui</Form>
+  </Forms>
+  <Resources>
+    <Resource>my_pic.qrc</Resource>
+  </Resources>
+  <Vcs>
+    <VcsType>None</VcsType>
+  </Vcs>
+  <FiletypeAssociations>
+    <FiletypeAssociation pattern="*.e4p" type="OTHERS"/>
+    <FiletypeAssociation pattern="*.idl" type="INTERFACES"/>
+    <FiletypeAssociation pattern="*.md" type="OTHERS"/>
+    <FiletypeAssociation pattern="*.proto" type="PROTOCOLS"/>
+    <FiletypeAssociation pattern="*.py" type="SOURCES"/>
+    <FiletypeAssociation pattern="*.py3" type="SOURCES"/>
+    <FiletypeAssociation pattern="*.pyw" type="SOURCES"/>
+    <FiletypeAssociation pattern="*.pyw3" type="SOURCES"/>
+    <FiletypeAssociation pattern="*.qm" type="TRANSLATIONS"/>
+    <FiletypeAssociation pattern="*.qrc" type="RESOURCES"/>
+    <FiletypeAssociation pattern="*.rst" type="OTHERS"/>
+    <FiletypeAssociation pattern="*.ts" type="TRANSLATIONS"/>
+    <FiletypeAssociation pattern="*.txt" type="OTHERS"/>
+    <FiletypeAssociation pattern="*.ui" type="FORMS"/>
+    <FiletypeAssociation pattern="README" type="OTHERS"/>
+    <FiletypeAssociation pattern="README.*" type="OTHERS"/>
+  </FiletypeAssociations>
+</Project>
